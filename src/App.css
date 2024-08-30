@@ -1,0 +1,31 @@
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #e25959;
+    height: 40vh !important;
+    /* Center slide text vertically */
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+  .categories::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+  }
